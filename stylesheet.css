@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right,rgb(218, 35, 35) , rgb(44, 102, 209));
+}
+#spanid{
+    width: 35%;
+    height: 100%;
+    float: right;
+}
+#imgid{
+    height: 100%;
+    float: right;
+    border-radius: 50%;
+    /* transform: translate(-20%); */
+   
+}
+#h1id{
+   
+    line-height: 100px;
+    float: left;
+    color: chocolate;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    
+}
+nav{
+    width: 65%;
+    
+    display: inline-block;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+nav a{
+text-decoration: none;
+
+color: rgb(214, 211, 211);
+display: inline-block;
+
+}
+nav ul{
+    display: inline-block;
+    
+}
+nav li{
+    display: inline-block;
+    line-height: 100px;
+    width: 118px;   
+}
+
+a:hover{
+    background-color: rgba(16, 112, 185, 0.432);
+}
+
+
+main{
+    width: 100%;
+    height: 500px;
+    background-color: #295e91;
+    border-top: 5px solid whitesmoke;
+    
+}
+aside{
+    width: 29%;
+    height: 100%;
+    border-right: solid 5px whitesmoke;
+    background-color: firebrick;
+    text-align: center;
+    float: left;
+}
+
+#imgaside{
+    width: 85%;
+}
+#h2id{
+    color: #819fbd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-bottom: 2px solid ;
+}
+#h1aside{
+    color: #c5d6e7;
+    font-family:cursive;
+}
+
+#article{
+    text-align: center;
+    width: 70%;
+    height: 500px;
+    float: right;
+    position: relative;
+   
+    }
+
+    #divid{
+        position:absolute;
+        width: 55%;
+        height: 40%;
+        background-color: #95989de6;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        padding: 15px;
+      
+    }
+
+    div h1{
+        color: rgb(25 65 104);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-bottom: 3px solid     #295e91;
+        font-size: 26px;
+        padding: 3px;
+       
+    }
+
+    #pid{
+        color: rgb(41 58 112);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+        padding: 5px;
+        font-size: 20px;
+        margin-top: 5px;
+          
+    }
+
+#contact-us{
+    width: 55%;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    display: flex;
+    
+}
+#contact-us img{
+width: 45px ;
+justify-content: right;
+text-decoration: none;
+border-top: 3px solid  #295e91;  
+padding-top: 6px;   
+
+}
+
+#contact-us img:hover{
+    width: 57px;
+    border-bottom: solid 3px whitesmoke;
+    background-color: #95989de6;
+}
+
+@media all {
+
+}
+
+@media print {
+    
+}
+
+@media only screen and (max-width:1012px ) and (min-width: 913px )  {
+  
+    #spanid{
+        width: 39%;
+    }
+nav{
+    width: 55%;
+}
+aside{
+    width: 33%;
+}
+#article {
+    width: 66%;
+}
+#contact-us {
+
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+}
+
+@media only screen and (max-width:912px ) and (min-width: 800px )  {
+
+    nav {
+        width: 56%;
+        text-align: left;
+        font-size: 23px;
+    }
+    #spanid{
+        width: 40%; 
+    }
+
+    #imgid{
+        height: 90%;
+        transform: translate(0px, 6px);
+    }
+    #h1id{
+        font-size: 22px
+    }
+    nav li{
+        width: 103px;
+    }
+    aside {
+        width: 31%;
+    }
+    #article {
+        width: 68%;
+    }
+    #contact-us {
+        width: 55%;
+    }
+}
+
+
+@media only screen and (max-width:800px ) and (min-width: 750px )  {
+    #spanid{
+        width: 37%;
+    }
+    #imgid{
+        transform: translate(10px, 10px);
+        height: 78%;
+    }
+    #h1id{
+        font-size: 19px;
+    }
+    nav{
+        width: 63%;
+        font-size: 22px;
+    }
+    nav li{
+        width: 99px;
+    }
+    aside {
+        width: 32%;
+    }
+    #article {
+
+        width: 67%;
+    }
+    #contact-us {
+        position: absolute;
+        top: 60%;
+        left: 35%;
+    }
+
+}
+
+@media only screen and (max-width:510px ) and (min-width:350px )  {
+
+    #spanid{
+        width: 100%;
+        height: 50%;
+        float: none;
+        
+    }
+    nav{
+        width: 100%;
+       
+    }
+    header{
+        height: 300px;
+    }
+    #imgid{
+        height: 34%;
+    }
+    aside{
+        width: 100%;
+        height: 115%;
+    }
+    #divid{
+        width: 85%;
+    }
+    #contact-us{
+        position: absolute;
+    top: 60%;
+    left: 25%;
+    }
+    #article{
+        background-color: #295e91;
+            float: left;
+                width: 100%;
+    }
+ 
+
+}
+@media only screen and (max-width:750px) and (min-width:650px) {
+    
+    header{
+        text-align: center;
+        height: 300px;
+    }
+    #spanid{
+        float: none;
+        width: 35%;
+    height: 45%;
+    }
+    #imgid{
+        float: none;
+        transform: none;
+        height: 37%;
+    }
+    #h1id {
+        line-height: 65px;
+        float: none;
+    }
+    nav{
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+        height: 145%;
+    }
+    #article{
+        width: 100%;
+        background-color: #295e91;
+    }
+    #divid{
+        width: 65%;
+    } 
+    #contact-us{
+        position: absolute;
+        top: 60%;
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width:650px ) and (min-width:510px ) {
+
+    header{
+        text-align: center;
+        height: 300px;
+    }
+    #spanid{
+        float: none;
+        width: 35%;
+    height: 45%;
+    }
+    #imgid{
+        float: none;
+        transform: none;
+        height: 37%;
+    }
+    #h1id {
+        line-height: 65px;
+        float: none;
+    }
+    nav{
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+        height: 128%;
+    }
+    #article{
+        width: 100%;
+        background-color: #295e91;
+    }
+    #divid{
+        width: 65%;
+    } 
+    #contact-us{
+        position: absolute;
+        top: 60%;
+        left: 35%;
+    }
+}
+     
+     
